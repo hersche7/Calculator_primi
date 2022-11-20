@@ -1,0 +1,69 @@
+print('CALCULATOR')
+input()
+
+
+print('SELECT THE APPROPIATE OPERATOR')
+input()
+
+print('''addition:001
+subtraction:002
+Multiplication:003
+Division:004
+Square root:005
+Square:006
+Exponent:007''')
+print()
+
+H=input('Enter your operator:')
+print()
+
+if H == '001' :
+    x=int(input('Enter first number to add:'))
+    y=int(input('Enter second number to add:'))
+    print()
+    print('Sum of given numbers:',x+y)
+
+elif H == '002' :
+    x=int(input('Enter first number to subtract:'))
+    y=int(input('Enter second number to subtract:'))
+    print()
+    print('difference of given numbers:',x-y)
+
+elif H == '003' :
+    x=int(input('Enter first number to multiply:'))
+    x=int(input('Enter number to find its square:'))
+    print('Square of given number is',(x)**(2))
+
+elif H == '004' :
+    x=int(input('Enter first number to divide:'))
+    y=int(input('Enter second number to divide:'))
+    print()
+    print('Division of given numbers:',x/y)
+
+elif H== '005' :
+    x=int(input('Enter number to find its square root:'))
+    print('Square of given number is',(x)**(0.5))
+
+elif H== '006' :
+    x=int(input('Enter number to find its square:'))
+    print('Square of given number is',(x)**(2))
+
+elif H== '007' :
+    x=int(input('Enter value of base'))
+    y=int(input('Enter value of exponent'))
+    print('value of exponential term:',(x)**(y))
+else :
+    print('''STRICTLY ADHERE TO PROCEDURE!!!''')
+
+
+
+
+
+
+
+
+
+
+
+
+
